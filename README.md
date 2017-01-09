@@ -1,3 +1,5 @@
+<!-- Credit to Matt Huntington for basically this entire lesson-->
+
 # PHP
 
 ## Setup
