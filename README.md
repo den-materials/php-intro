@@ -1,8 +1,49 @@
 <!-- Credit to Matt Huntington for basically this entire lesson-->
 
+<!--9:40 10 minutes -->
+
 # PHP
 
+## Objectives
+*By the end of this lesson, developers will be able to:*
+
+- **Explain** what PHP is, and its role in web development
+- **List** the four parts of the MAMP stack
+
+## What is PHP?
+
+**PHP** is a common back-end language.  In fact, it is estimated that of all websites with an identifiable back-end, PHP is the language for over [82% of them](https://w3techs.com/technologies/overview/programming_language/all).  Yes.  That is a real number.
+
+Why is it so common?  Well, there's something to be said for trend-setters like [Facebook using PHP](https://www.quora.com/Why-hasn-t-Facebook-migrated-away-from-PHP) to build their product out, and [providing SDKs](https://developers.facebook.com/docs/reference/php/) (Software Development Kits) for PHP.  But, more importantly, PHP is used in most of the popular CMSes (Content Management Systems).  Specifically, Wordpress is based on PHP, and [over 25% of the Internet's websites](https://w3techs.com/technologies/details/cm-wordpress/all/all) are on Wordpress.  And 100% of those are built with PHP on the back-end.
+
+### A Little History
+
+[PHP](http://php.net/manual/en/history.php.php) is actually arguably older than [Javascript](https://www.w3.org/community/webed/wiki/A_Short_History_of_JavaScript) (it was developed first, but released slightly later).  It has been around since the mid 90s as a way to dynamically render HTML for a web browser, based on variables and functionality available to a full programming language.
+
+It was developed as a toolset to make building a **P**ersonal **H**ome **P**age easier.  Then its name stopped meaning anything, just like **npm**.
+
+The latest production version of PHP is 5, but 7 is in development, if you would like to "push the envelope".  [What happened to PHP 6?](https://news.ycombinator.com/item?id=8786919) Long story short, they made a couple big mistakes, and decided to drop those changes.
+
+Oh, and PHP has the best mascot ever: the ele**php**ant.  Here it is:
+
+![](elephpant.jpg)
+
+<!--Sound familiar?  That's what we did with EJS and Angular.  PHP did it first. -->
+
+## What is MAMP?
+
+**MAMP** is another stack, like **MEAN**.  It is a combination of the:
+
+- **M**ac Operating System
+- **A**pache Web Server
+- **M**ySQL dialect of SQL
+- **P**HP back-end language
+
+<!--9:50 15 minutes -->
+
 ## Setup
+
+Follow the directions below to setup the MAMP stack on your computer.
 
 1. Download [MAMP] (https://www.mamp.info/en/downloads/)
 1. Double click .pkg file and follow prompts
