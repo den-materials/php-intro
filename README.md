@@ -48,25 +48,19 @@ Follow the directions below to setup the MAMP stack on your computer.
 1. Download [MAMP] (https://www.mamp.info/en/downloads/)
 1. Double click .pkg file and follow prompts
 1. Double click /Applications/MAMP/MAMP
-1. Point MAMP to working directory
+1. Point MAMP to your working directory
 	- Click on Preferences
 	- Click on Web Server
 	- Click the folder icon next to "Document Root" and find a suitable directory to work out of
 	- Click OK
+1. Click Start Servers
 1. Go to <http://localhost:8888/>
-1. Error logs are in /Applications/MAMP/logs/
+1. Make a new directory inside your working directory called `php-practice`
+1. Put a file inside this directory called `index.php`
+	- This is where we will be working in this lesson
+
+>**Note:** If you are troubleshooting back-end issues, MAMP error logs are in /Applications/MAMP/logs/
 	- `tail -f php_error.log`
-1. MAMP stands for Mac, Apache, MySQL, PHP
-	- this describes the tech stack
-		- Mac
-			- Your OS
-		- Apache
-			- A pre-build web server that serves static files
-			- Is extendable with various modules that allows it to do many things easily
-		- MySQL
-			- Your Database
-		- PHP
-			- A module for Apache that allows it to server dynamic data
 
 ## Basics
 
