@@ -62,6 +62,8 @@ Follow the directions below to setup the MAMP stack on your computer.
 >**Note:** If you are troubleshooting back-end issues, MAMP error logs are in /Applications/MAMP/logs/
 	- `tail -f php_error.log`
 
+<!--10:05 15 minutes -->
+
 ## Basics
 
 ### Tags
@@ -73,6 +75,8 @@ Because this is all run on top of Apache, the initial assumption is that we're s
 Instead of `<%= %>` you have `<?= ?>` or `<?php echo ?>`
 
 Instead of `<% %>` you have `<?php ?>`
+
+<!--Demo this whole thing with devs at half-mast
 
 ### Comments
 
@@ -86,6 +90,8 @@ line
 comment
 */
 ```
+
+<!--Remind you of something?  -->
 
 ### Declaring/Assigning variables
 
@@ -119,6 +125,9 @@ $x = 10.365;
 var_dump($x);
 ?>
 ```
+
+<!-- Woah, everything isn't just a number?-->
+
 ```php
 <?php
 $x = true;
@@ -138,6 +147,8 @@ var_dump($x);
 ?>
 ```
 
+<!--End demo -->
+
 ### String Operators
 
 Use a `.` or `.=` to combine strings.
@@ -152,6 +163,12 @@ Use a `.` or `.=` to combine strings.
 ?>
 ```
 
+Now try it yourself!
+
+<!-- Ask students to concatenate two strings with . and add a third one with .=, echo out the result. -->
+
+<!--Start demo again -->
+
 ### Arithmetic Operators
 
 ```php
@@ -165,6 +182,7 @@ Use a `.` or `.=` to combine strings.
 ?>
 ```
 
+
 ### Increment/Decrement Operators
 
 ```php
@@ -173,6 +191,8 @@ Use a `.` or `.=` to combine strings.
 	$x--; //decrement by 1;
 ?>
 ```
+
+<!-- End demo -->
 
 ### Assignment Operators
 
@@ -185,6 +205,16 @@ Use a `.` or `.=` to combine strings.
 	$my_var /= 2; //$my_var = $my_var / 2;
 ?>
 ```
+
+Now try it yourself.
+
+- Create five numerical variables, using all of the mathematical operators above.
+- Increment one of them.
+- Multiply one of them by two using an assignment operator.
+- Echo all five variables out.
+
+<!--10:20 10 minutes -->
+<!--Go quickly through, and then turn over to students for most of time -->
 
 ## Conditionals
 
@@ -203,15 +233,14 @@ Format 1:
 ?>
 ```
 
+<!--Remind you of something?  No space between else and if, that's about it. -->
+
 Format 2:
 
 ```php
 <?php if(condition): ?>
-	condition1
 <?php elseif(condition2): ?>
-	condition2
 <?php else: ?>
-	else
 <?php endif; ?>
 ```
 
@@ -246,6 +275,15 @@ Arithmetic:
 ?>
 ```
 
+### Independent Practice
+
+<!--Display how you can use an if conditional and an h1 tag after it-->
+
+Use "Format 2" above to display one of three `<h1>` tags, depending on whether a number is greater than or equal to zero, less than zero, or none of the above.
+
+<!--10:30 10 minutes -->
+<!--Just go through syntax, then turn over to students to create an array of three animals, and an associate array with three people and their favorite colors -->
+
 ## Arrays
 
 ### Indexed Arrays
@@ -265,7 +303,7 @@ print_r($cars); //prints contents of array in nicer format than var_dump
 
 ### Associative Arrays (hashes)
 
-These are very similar to Ruby hashes
+These are very similar to Javascript objects
 
 ```php
 <?php
@@ -274,6 +312,8 @@ These are very similar to Ruby hashes
 	echo "Bob is " . $age['Bob'] . " years old.";
 ?>
 ```
+
+<!--10:40 10 minutes -->
 
 ## Loops
 
@@ -330,7 +370,7 @@ foreach ($colors as $key => $value) {
 <?php endforeach ?>
 ```
 
-This works for associative arrays:
+This works for associative arrays too:
 
 ```php
 <?php
@@ -348,6 +388,8 @@ foreach ($ages as $key => $value) {
 <?php endforeach ?>
 ```
 
+<!--10:50 5 minutes -->
+
 ## Functions
 
 ```php
@@ -359,6 +401,11 @@ function writeMsg() {
 writeMsg(); // call the function
 ?>
 ```
+
+<!--Look familiar? -->
+
+<!--10:55 10 minutes -->
+<!--Can just go through these, maybe demo one -->
 
 ## Convenience Methods
 
@@ -436,6 +483,8 @@ sort($cars);
 print_r($cars); //BMW, Toyota, Volvo
 ```
 
+<!--11:05 15 minutes -->
+
 ## Classes and Objects
 
 ### Public Members
@@ -490,7 +539,7 @@ echo $my_car->getWheels();
 echo $my_car->wheels; //error: cannot access protected property
 ?>
 ```
-
+<!--Skipping this for now, maybe I'll teach next time around
 ### Statics
 
 ```php
@@ -522,6 +571,7 @@ print_r(CarFactory::find());
 print_r(CarFactory::$cars); //errors out: protected
 ?>
 ```
+-->
 
 ### Inheritance
 
