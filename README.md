@@ -1,5 +1,7 @@
 <!-- Credit to Matt Huntington for basically this entire lesson-->
 
+<!--Actually 9:48 -->
+
 <!--9:40 10 minutes -->
 
 # PHP
@@ -31,6 +33,8 @@ Oh, and PHP has the best mascot ever: the ele**php**ant.  Here it is:
 
 <!--Sound familiar?  That's what we did with EJS and Angular.  PHP did it first. -->
 
+<!--Actually 9:54 -->
+
 ## What is MAMP?
 
 **MAMP** is another stack, like **MEAN**.  It is a combination of the:
@@ -40,9 +44,13 @@ Oh, and PHP has the best mascot ever: the ele**php**ant.  Here it is:
 - **M**ySQL dialect of SQL
 - **P**HP back-end language
 
+<!--Actually 9:58-->
+
 <!--9:50 15 minutes -->
 
 ## Setup
+
+<!--Kevin's Installer app was broken which sunk a TON of time.  Lesson learned: you can run the installer app manually on terminal, and it works. -->
 
 Follow the directions below to set up the MAMP stack on your computer.
 
@@ -283,6 +291,9 @@ Arithmetic:
 
 Use "Format 2" above to display one of three `<h1>` tags, depending on whether a number is greater than or equal to zero, less than zero, or none of the above.
 
+<!--Actually 11:17 -->
+
+<!--Actually 11:35 -->
 <!--10:30 10 minutes -->
 <!--Just go through syntax, then turn over to students to create an array of three animals, and an associate array with three people and their favorite colors -->
 
@@ -369,7 +380,7 @@ foreach ($colors as $key => $value) {
 <?php $colors = array("red", "green", "blue", "yellow"); ?>
 <?php foreach ($colors as $key => $value): ?>
 	<?= $key ?>: <?=$value?> <br>
-<?php endforeach ?>
+<?php endforeach; ?>
 ```
 
 This works for associative arrays too:
@@ -389,6 +400,8 @@ foreach ($ages as $key => $value) {
 	<?= $key ?>: <?=$value?> <br>
 <?php endforeach ?>
 ```
+
+<!--Actually through syntax at 11:46, but still haven't had devs go through exercises -->
 
 <!--10:50 5 minutes -->
 
@@ -621,3 +634,5 @@ print_r($my_humvee);
 ```
 
 <!-- Look familiar? -->
+
+<!--Actually 12:16 and only went through without showing most of end stuff-->
