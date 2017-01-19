@@ -43,24 +43,25 @@ Oh, and PHP has the best mascot ever: the ele**php**ant.  Here it is:
 
 ## Setup
 
-Follow the directions below to setup the MAMP stack on your computer.
+Follow the directions below to set up the MAMP stack on your computer.
 
 1. Download [MAMP] (https://www.mamp.info/en/downloads/)
-1. Double click .pkg file and follow prompts
+1. Double click the .pkg file and follow prompts
 1. Double click /Applications/MAMP/MAMP
 1. Point MAMP to your working directory
 	- Click on Preferences
 	- Click on Web Server
 	- Click the folder icon next to "Document Root" and find a suitable directory to work out of
+		- We recommend a folder, inside your working directory, called `mamp`
 	- Click OK
-1. Click Start Servers
+1. Click `Start Servers`
 1. Go to <http://localhost:8888/>
-1. Make a new directory inside your working directory called `php-practice`
+1. Make a new directory inside `mamp` called `php-practice`
 1. Put a file inside this directory called `index.php`
 	- This is where we will be working in this lesson
 
 >**Note:** If you are troubleshooting back-end issues, MAMP error logs are in /Applications/MAMP/logs/
-	- `tail -f php_error.log`
+	- `tail -f php_error.log` to see errors
 
 <!--10:05 15 minutes -->
 
@@ -617,3 +618,5 @@ $my_humvee->start();
 print_r($my_humvee);
 ?>
 ```
+
+<!-- Look familiar? -->
