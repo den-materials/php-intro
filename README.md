@@ -9,6 +9,7 @@
 
 - **Explain** what PHP is, and its role in web development
 - **List** the four parts of the MAMP stack
+- **Understand** PHP data types and basic syntax
 
 ## What is PHP?
 
