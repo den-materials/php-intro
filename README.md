@@ -54,7 +54,7 @@ Oh, and PHP has the best mascot ever: the ele**php**ant.  Here it is:
 
 Follow the directions below to set up the MAMP stack on your computer.
 
-1. Download [MAMP] (https://www.mamp.info/en/downloads/)
+1. Download [MAMP](https://www.mamp.info/en/downloads/)
 1. Double click the .pkg file and follow prompts
 1. Double click /Applications/MAMP/MAMP
 1. Point MAMP to your working directory
