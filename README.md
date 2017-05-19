@@ -21,7 +21,7 @@ Why is it so common?  Well, there's something to be said for trend-setters like 
 
 ### A Little History
 
-[PHP](http://php.net/manual/en/history.php.php) is actually arguably older than [Javascript](https://www.w3.org/community/webed/wiki/A_Short_History_of_JavaScript) (it was developed first, but released slightly later).  It has been around since the mid 90s as a way to dynamically render HTML for a web browser, based on variables and functionality available to a full programming language.
+[PHP](http://php.net/manual/en/history.php.php) is actually arguably older than [Javascript](https://www.w3.org/community/webed/wiki/A_Short_History_of_JavaScript) (it was developed first, but released slightly later).  It has been around since the mid 90s as a way to dynamically render HTML for a web browser, based on variables and the functionality available to a full programming language.
 
 It was developed as a toolset to make building a **P**ersonal **H**ome **P**age easier.  Then its name stopped meaning anything, just like **npm**.
 
@@ -80,13 +80,13 @@ Follow the directions below to set up the MAMP stack on your computer.
 
 Because this is all run on top of Apache, the initial assumption is that we're serving static HTML files
 - We need `<?php ?>` tags to show that we're writing PHP
-- Think of this as if Apache/PHP is server.js and we're just writing EJS
+- Think of this as if Apache/PHP is our `server.js` and we're just writing EJS
 
 Instead of `<%= %>` you have `<?= ?>` or `<?php echo ?>`
 
 Instead of `<% %>` you have `<?php ?>`
 
-<!--Demo this whole thing with devs at half-mast
+<!--Demo this whole thing with devs at half-mast-->
 
 ### Comments
 
