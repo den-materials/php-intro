@@ -518,19 +518,6 @@ print_r($my_car);
 ?>
 ```
 
-### Constructors
-
-```php
-<?php
-class Car {
-	public $wheels;
-	public function __construct(){ // runs at beginning of object creation
-		$this->wheels = 4;
-	}
-}
-?>
-```
-
 ### Protected Members
 
 ```php
@@ -587,6 +574,19 @@ print_r(CarFactory::$cars); //errors out: protected
 ?>
 ```
 -->
+
+### Constructors
+
+```php
+<?php
+class Car {
+	public $wheels;
+	public function __construct(){ // runs at beginning of object creation
+		$this->wheels = 4;
+	}
+}
+?>
+```
 
 ### Inheritance
 
