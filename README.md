@@ -2,6 +2,7 @@
 
 <!--Actually 9:48 -->
 
+<!--WDI3 9:42 -->
 <!--9:40 10 minutes -->
 
 # PHP
@@ -46,6 +47,7 @@ Oh, and PHP has the best mascot ever: the ele**php**ant.  Here it is:
 
 <!--Actually 9:58-->
 
+<!--9:48 WDI3 -->
 <!--9:50 15 minutes -->
 
 ## Setup
@@ -72,6 +74,7 @@ Follow the directions below to set up the MAMP stack on your computer.
 >**Note:** If you are troubleshooting back-end issues, MAMP error logs are in /Applications/MAMP/logs/
 	- `tail -f php_error.log` to see errors
 
+<!--9:52 WDI3 setup already done earlier -->
 <!--10:05 15 minutes -->
 
 ## Basics
@@ -159,6 +162,8 @@ var_dump($x);
 
 <!--End demo -->
 
+<!--10:04 WDI3 -->
+
 ### String Operators
 
 Use a `.` or `.=` to combine strings.
@@ -177,6 +182,7 @@ Now try it yourself!
 
 <!-- Ask students to concatenate two strings with . and add a third one with .=, echo out the result. -->
 
+<!--10:09 WDI3 -->
 <!--Start demo again -->
 
 ### Arithmetic Operators
@@ -216,6 +222,8 @@ Now try it yourself!
 ?>
 ```
 
+<!--10:12 WDI3 turning over to devs -->
+
 Now try it yourself.
 
 - Create five numerical variables, using all of the mathematical operators above.
@@ -223,6 +231,7 @@ Now try it yourself.
 - Multiply one of them by two using an assignment operator.
 - Echo all five variables out.
 
+<!--10:18 WDI3-->
 <!--10:20 10 minutes -->
 <!--Go quickly through, and then turn over to students for most of time -->
 
@@ -291,11 +300,13 @@ Arithmetic:
 
 Use "Format 2" above to display one of three `<h1>` tags, depending on whether a number is greater than or equal to zero, less than zero, or none of the above.
 
-<!--Actually 11:17 -->
+<!--Actually 11:17 WDI2 turning over to devs-->
+<!--WDI3 10:29 turning over to devs -->
 
-<!--Actually 11:35 -->
+<!--Actually 11:35 WDI2-->
+<!--10:39 WDI3 -->
 <!--10:30 10 minutes -->
-<!--Just go through syntax, then turn over to students to create an array of three animals, and an associate array with three people and their favorite colors -->
+<!--Just go through syntax, then turn over to students to create an array of three animals, and an associative array with three people and their favorite colors -->
 
 ## Arrays
 
@@ -326,6 +337,9 @@ These are very similar to Javascript objects
 ?>
 ```
 
+<!--10:45 turning over to devs WDI3 -->
+
+<!--10:50 WDI3 -->
 <!--10:40 10 minutes -->
 
 ## Loops
@@ -401,8 +415,9 @@ foreach ($ages as $key => $value) {
 <?php endforeach ?>
 ```
 
-<!--Actually through syntax at 11:46, but still haven't had devs go through exercises -->
+<!--Have devs make a for loop to print out their animals and foreach to print out people and favorite colors -->
 
+<!--WDI3 11:01 -->
 <!--10:50 5 minutes -->
 
 ## Functions
@@ -419,6 +434,7 @@ writeMsg(); // call the function
 
 <!--Look familiar? -->
 
+<!--WDI3 11:02-->
 <!--10:55 10 minutes -->
 <!--Can just go through these, maybe demo one -->
 
@@ -498,6 +514,7 @@ sort($cars);
 print_r($cars); //BMW, Toyota, Volvo
 ```
 
+<!--WDI3 11:07 -->
 <!--11:05 15 minutes -->
 
 ## Classes and Objects
@@ -634,5 +651,5 @@ print_r($my_humvee);
 ```
 
 <!-- Look familiar? -->
-
+<!--11:25 WDI3 -->
 <!--Actually 12:16 and only went through without showing most of end stuff-->
