@@ -24,11 +24,15 @@ Why is it so common?  Well, there's something to be said for trend-setters like 
 
 [PHP](http://php.net/manual/en/history.php.php) is actually arguably older than [Javascript](https://www.w3.org/community/webed/wiki/A_Short_History_of_JavaScript) (it was developed first, but released slightly later).  It has been around since the mid 90s as a way to dynamically render HTML for a web browser, based on variables and the functionality available to a full programming language.
 
-It was developed as a toolset to make building a **P**ersonal **H**ome **P**age easier.  Then its name stopped meaning anything, just like **npm**.
+It was developed as a toolset to make building a **P**ersonal **H**ome **P**age easier. After it's popularization, the creator claimed that PHP stood for **P**HP: **H**ypertext **P**reprocessor, which is even stupider. Finally its name stopped meaning anything, just like **npm** or [Häagen-Dazs](https://en.wikipedia.org/wiki/H%C3%A4agen-Dazs#Origin_of_brand_name).
 
-The latest production version of PHP is 5, but 7 is in development, if you would like to "push the envelope".  [What happened to PHP 6?](https://news.ycombinator.com/item?id=8786919) Long story short, they made a couple big mistakes, and decided to drop those changes.
+The latest production version of PHP is 5, but 7 came out a few days ago, if you would like to "push the envelope".  [What happened to PHP 6?](https://news.ycombinator.com/item?id=8786919) Long story short, they made a couple big mistakes, and decided skip right over to version 7 - same as Angular did with v3.
 
-Oh, and PHP has the best mascot ever: the ele**php**ant.  Here it is:
+![Pour one out](https://media.giphy.com/media/3xz2BPbIqcqpFDKXsI/giphy.gif)
+>Rememer: Pour one out for our lost versions
+
+
+Oh, and PHP has the best mascot ever: the ele**php**ant:
 
 ![](elephpant.jpg)
 
@@ -44,6 +48,8 @@ Oh, and PHP has the best mascot ever: the ele**php**ant.  Here it is:
 - **A**pache Web Server
 - **M**ySQL dialect of SQL
 - **P**HP back-end language
+
+>You might also hear of WAMP (MAMP on Windows) and LAMP (MAMP on Linux)
 
 <!--Actually 9:58-->
 
@@ -309,10 +315,12 @@ Standard array functionality
 ```php
 <?php
 $cars = array("Volvo", "BMW", "Toyota");
-$cars[4] = 'asdf'; //can be in indexes that don't yet exist
-$cars[] = "added to end"; //pushes onto array
+$cars[4] = 'Volkswagen'; //can be in indexes that don't yet exist
+$cars[] = "AND JET PLANES"; //pushes onto array
 echo "I like " . $cars[0] . ", " . $cars[4] . " and " . $cars[5] . ".";
-echo count($cars); //prints length of array
+echo "<br><br>"; // adds a double line break
+echo count($cars);//prints length of array
+echo "<br><br>"; // adds a double line break
 print_r($cars); //prints contents of array in nicer format than var_dump
 ?>
 ```
