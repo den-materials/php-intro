@@ -16,27 +16,25 @@
 
 ## What is PHP?
 
-**PHP** is a common back-end language.  In fact, it is estimated that of all websites with an identifiable back-end, PHP is the language for over [82% of them](https://w3techs.com/technologies/overview/programming_language/all).  Yes.  That is a real number.
+**PHP** is a common back-end language.  In fact, it is estimated that of all websites with an identifiable back-end, PHP is the language for over [83% of them](https://w3techs.com/technologies/overview/programming_language/all).  Yes.  That is a real number.  And fun fact: it was 82% last time we checked.
 
-Why is it so common?  Well, there's something to be said for trend-setters like [Facebook using PHP](https://www.quora.com/Why-hasn-t-Facebook-migrated-away-from-PHP) to build their product out, and [providing SDKs](https://developers.facebook.com/docs/reference/php/) (Software Development Kits) for PHP.  But, more importantly, PHP is used in most of the popular CMSes (Content Management Systems).  Specifically, Wordpress is based on PHP, and [over 25% of the Internet's websites](https://w3techs.com/technologies/details/cm-wordpress/all/all) are on Wordpress.  And 100% of those are built with PHP on the back-end.
+Why is it so common?  Well, there's something to be said for trend-setters like [Facebook using a PHP-derived backend](https://www.quora.com/Why-hasn-t-Facebook-migrated-away-from-PHP) to build their product out, and [providing SDKs](https://developers.facebook.com/docs/reference/php/) (Software Development Kits) for PHP.  But, more importantly, PHP is used in most of the popular CMSes (Content Management Systems).  Specifically, **Wordpress** is based on PHP, and [just under 30% of the Internet's websites](https://w3techs.com/technologies/details/cm-wordpress/all/all) are on Wordpress.  And 100% of those are built with PHP on the back-end.
 
 ### A Little History
 
 [PHP](http://php.net/manual/en/history.php.php) is actually arguably older than [Javascript](https://www.w3.org/community/webed/wiki/A_Short_History_of_JavaScript) (it was developed first, but released slightly later).  It has been around since the mid 90s as a way to dynamically render HTML for a web browser, based on variables and the functionality available to a full programming language.
 
-It was developed as a toolset to make building a **P**ersonal **H**ome **P**age easier. After it's popularization, the creator claimed that PHP stood for **P**HP: **H**ypertext **P**reprocessor, which is even stupider. Finally its name stopped meaning anything, just like **npm** or [Häagen-Dazs](https://en.wikipedia.org/wiki/H%C3%A4agen-Dazs#Origin_of_brand_name).
+It was developed as a toolset to make building a **P**ersonal **H**ome **P**age easier. After its popularization, the creator claimed that PHP stood for **P**HP: **H**ypertext **P**reprocessor, which is a wonderfully complicated name. Finally its name stopped meaning anything, just like **npm** or [Häagen-Dazs](https://en.wikipedia.org/wiki/H%C3%A4agen-Dazs#Origin_of_brand_name).
 
-The latest production version of PHP is 5, but 7 came out a few days ago, if you would like to "push the envelope".  [What happened to PHP 6?](https://news.ycombinator.com/item?id=8786919) Long story short, they made a couple big mistakes, and decided skip right over to version 7 - same as Angular did with v3.
+The [latest production version of PHP is 7](http://php.net/downloads.php).  [What happened to PHP 6?](https://news.ycombinator.com/item?id=8786919) Long story short, they made a couple big mistakes, and decided skip right over to version 7 - same as Angular did with v3 or ES with v4.
 
 ![Pour one out](https://media.giphy.com/media/3xz2BPbIqcqpFDKXsI/giphy.gif)
->Rememer: Pour one out for our lost versions
+>Remember: Pour one out for our lost versions
 
 
 Oh, and PHP has the best mascot ever: the ele**php**ant:
 
 ![](elephpant.jpg)
-
-<!--Sound familiar?  That's what we did with EJS and Angular.  PHP did it first. -->
 
 <!--Actually 9:54 -->
 
@@ -49,7 +47,7 @@ Oh, and PHP has the best mascot ever: the ele**php**ant:
 - **M**ySQL dialect of SQL
 - **P**HP back-end language
 
->You might also hear of WAMP (MAMP on Windows) and LAMP (MAMP on Linux)
+>You might also hear of WAMP (AMP on Windows) and LAMP (AMP on Linux)
 
 <!--Actually 9:58-->
 
@@ -296,7 +294,7 @@ Arithmetic:
 
 <!--Display how you can use an if conditional and an h1 tag after it-->
 
-Use "Format 2" above to display one of three `<h1>` tags, depending on whether a number is greater than or equal to zero, less than zero, or none of the above.
+Use "Format 2" above to display one of three `<h1>` tags, depending on whether a number is greater than zero, less than zero, or equal to zero.
 
 <!--Actually 11:17 WDI2 turning over to devs-->
 <!--WDI3 10:29 turning over to devs -->
@@ -317,7 +315,7 @@ Standard array functionality
 $cars = array("Volvo", "BMW", "Toyota");
 $cars[4] = 'Volkswagen'; //can be in indexes that don't yet exist
 $cars[] = "AND JET PLANES"; //pushes onto array
-echo "I like " . $cars[0] . ", " . $cars[4] . " and " . $cars[5] . ".";
+echo "I like " . $cars[0] . ", " . $cars[4] . " " . $cars[5] . ".";
 echo "<br><br>"; // adds a double line break
 echo count($cars);//prints length of array
 echo "<br><br>"; // adds a double line break
@@ -495,6 +493,8 @@ echo substr("Hello world", 3, 4); // outputs 'lo w'
 ?>
 ```
 
+Want more?  [Here is a full reference for all PHP string methods](https://www.w3schools.com/php/php_ref_string.asp).
+
 ### Sorting Arrays
 
 Various functions for sorting arrays.  Can be done arithmetically or alphabetically, depending on content
@@ -650,6 +650,6 @@ print_r($my_humvee);
 ?>
 ```
 
-<!-- Look familiar? -->
+<!-- Look familiar? That's exactly how ES6 classes work-->
 <!--11:25 WDI3 -->
 <!--Actually 12:16 and only went through without showing most of end stuff-->
