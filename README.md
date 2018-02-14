@@ -3,6 +3,7 @@
 <!--Actually 9:48 -->
 
 <!--WDI3 9:42 -->
+<!--WDI6 9:43 -->
 <!--9:40 10 minutes -->
 
 # PHP
@@ -72,6 +73,7 @@ Follow the directions below to set up the MAMP stack on your computer.
 
 <!--9:52 WDI3 setup already done earlier -->
 <!--10:05 15 minutes -->
+<!--WDI6 10:21 setup took a while -->
 
 ## Basics
 
@@ -178,6 +180,7 @@ Now try it yourself!
 
 <!-- Ask students to concatenate two strings with . and add a third one with .=, echo out the result. -->
 
+<!--WDI6 10:37 -->
 <!--10:09 WDI3 -->
 <!--Start demo again -->
 
@@ -227,6 +230,7 @@ Now try it yourself.
 - Multiply one of them by two using an assignment operator.
 - Echo all five variables out.
 
+<!--WDI6 10:46  -->
 <!--10:18 WDI3-->
 <!--10:20 10 minutes -->
 <!--Go quickly through, and then turn over to students for most of time -->
@@ -299,6 +303,7 @@ Use "Format 2" above to display one of three `<h1>` tags, depending on whether a
 <!--Actually 11:17 WDI2 turning over to devs-->
 <!--WDI3 10:29 turning over to devs -->
 
+<!--WDI6 10:57 , then break, coming back 11:08-->
 <!--Actually 11:35 WDI2-->
 <!--10:39 WDI3 -->
 <!--10:30 10 minutes -->
@@ -336,6 +341,7 @@ These are very similar to Javascript objects
 ```
 
 <!--10:45 turning over to devs WDI3 -->
+<!--WDI6 11:13 turning over to devs, coming back 11:20-->
 
 <!--10:50 WDI3 -->
 <!--10:40 10 minutes -->
@@ -415,6 +421,7 @@ foreach ($ages as $key => $value) {
 
 <!--Have devs make a for loop to print out their animals and foreach to print out people and favorite colors -->
 
+<!--WDI6 11:31 -->
 <!--WDI3 11:01 -->
 <!--10:50 5 minutes -->
 
@@ -653,3 +660,4 @@ print_r($my_humvee);
 <!-- Look familiar? That's exactly how ES6 classes work-->
 <!--11:25 WDI3 -->
 <!--Actually 12:16 and only went through without showing most of end stuff-->
+<!-- WDI6 11:48 -->
